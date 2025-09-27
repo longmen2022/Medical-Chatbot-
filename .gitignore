@@ -1,0 +1,45 @@
+# Python virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# macOS and Linux system files
+.DS_Store
+*.swp
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Pipenv and Poetry
+Pipfile.lock
+poetry.lock
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# MyPy and Pylint
+.mypy_cache/
+.pylint.d/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
